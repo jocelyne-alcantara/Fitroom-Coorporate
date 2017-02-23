@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="http://fitroom.me/img/logos/logo1.png" property="og:image">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="author">
+  <title>Fitroom</title>
+  <link href="img/logos/fitroom-logo.png" rel="icon" type="image/png">
+  <!-- for the form -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/agency.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="js/script.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  <script>
+       $(function() {
+           cbpBGSlideshow.init();
+         });
+  </script>
+</head>
+<body class="index" id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logos/logo2.png"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll navHover" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="page-scroll navHover" href="#product">Product</a>
+          </li>
+          <li>
+            <a class="page-scroll navHover" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll navHover" href="#team">Team</a>
+          </li>
+          <li>
+            <a class="contact navHover" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- floating form slideDown -->
+  <div class="form-style" id="contact_form">
+    <div class="form-style-heading">
+      Schedule a demo or leave us a message.<a href="#" id="closeForm" style="color:#495A6C;float:right;position:relative;margin-top:-1%;"><span class="glyphicon glyphicon-remove" style="font-size: 12px"></span></a>
+    </div>
+    <div id="contact_results"></div>
+    <div id="contact_body">
+      <label style="font-size: 13px;"><span>Name <span class="required">*</span></span> <input class="input-field" id="name" name="name" placeholder="Your name..." required="true" type="text"></label> <label style="font-size: 13px;"><span>Email <span class="required">*</span></span> <input class="input-field" id="email" name="email" placeholder="anything@example.com" required="true" type="email"></label> <label style="font-size: 13px;"><span>Website</span> <input class="input-field" name="website" placeholder="www.yoursite.com" type="text"></label> <label for="field5" style="font-size: 13px;"><span>Message <span class="required">*</span></span> 
+      <textarea class="textarea-field" id="message" name="message" placeholder="Tell us..." required="true" style="height: 50px;"></textarea></label> <label style="font-size: 0px;position: relative;margin-top: -6.5%;"><span>&nbsp;</span><input id="submit_btn" type="submit" value="Submit"></label>
+    </div>
+  </div><!-- Header -->
+  <header id="landingpage">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-heading" id="title"><img src="img/text2.png"></div><a class="page-scroll btn btn-xl" href="#services" id="learnmore" style="color:#fff;text-shadow: 0 0px 0 #f3f3f3;">Learn More</a> <a class="btn btn-xl" href="#" id="showSchedule" style="color:#fff;text-shadow: 0 0px 0 #f3f3f3;">Schedule a Demo</a>
+      </div>
+    </div>
+    <ul class="cbp-bislideshow" id="cbp-bislideshow">
+      <li><img alt="image01" src="img/slide/3.jpeg"></li>
+      <li><img alt="image02" src="img/slide/1.jpeg"></li>
+      <li><img alt="image03" src="img/slide/2.jpeg"></li>
+      <li><img alt="image04" src="img/slide/4.jpeg"></li>
+    </ul>
+  </header>
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Services</h2><br>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3 block revealOnScroll" data-animation="flipInX">
+          <div class="service image">
+            <img src="img/logos/VisualSearchIcon.png">
+            <h4 class="service-heading">Enterprise Visual Search</h4>
+            <p class="text-muted" style="min-width: 185px;">Add Custom Image & Text Search functionality on your retail website enabling your customers to upload a picture of a product they desire and retrieve results of incredibly similar items within your inventory.</p>
+          </div>
+        </div>
+        <div class="col-md-3 block revealOnScroll" data-animation="flipInX" data-timeout="200">
+          <div class="service image">
+            <img src="img/logos/analytics.png">
+            <h4 class="service-heading">Analytics</h4>
+            <p class="text-muted">Use Fitroom's Analytics Platform for remarketing campaigns and price benchmarking.</p>
+          </div>
+        </div>
+        <div class="col-md-3 block revealOnScroll" data-animation="flipInX" data-timeout="400">
+          <div class="service image">
+            <img src="img/logos/identity.png">
+            <h4 class="service-heading" style="margin: 15px -7px 15px -7px;">Brand Identity Protection</h4>
+            <p class="text-muted">Protect your brand from counterfeiters using our Hybrid Image Search.</p>
+          </div>
+        </div>
+        <div class="col-md-3 block revealOnScroll" data-animation="flipInX" data-timeout="600">
+          <div class="service image">
+            <img src="img/logos/metatag.png">
+            <h4 class="service-heading">Auto Tagging</h4>
+            <p class="text-muted">Automatically and quickly meta-tag your entire inventory of images.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12" id="btnServices">
+        <a class="btnServices btn btn-primary active" href="#" id="showDemo" role="button" style="padding: 18px;" target="_blank">TRY SEARCH DEMO</a> <a class="btnServices btn btn-primary active" href="http://www.gofind.ai/" role="button" style="padding: 18px;" target="_blank">TRY ANALYTICS DEMO</a>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- product section -->
+  <section id="product" style="padding: 100px 0px 100px 0;">
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Product</h2>
+            <h3 style="font-weight: 400;font-size: 21px;">How it works</h3>
+          </div>
+        </div>
+        <div class="col-md-12 text-center">
+          <iframe allowfullscreen frameborder="0" height="650" src="https://www.youtube.com/embed/2IuUbpuNn1w" width="1087"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about us Section -->
+  <section class="bg-light-gray" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">About Us</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading" id="goal">Our goal is to enable people to buy ANYTHING they SEE.<br>
+          <br>
+          We use Artificial Intelligence and Deep Learning algorithms to understand products in the same way the human mind works then scan through an inventory of billions of products in milliseconds to retrieve the most similar products available for immediate purchase.<br>
+          <br>
+          Backed by Angel Investors in the San Francisco Bay Area, we are changing the face of e-commerce and bridging the gap between want and have.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team Section -->
+  <section id="team">
+    <div class="row" id="firstRow">
+      <div>
+        <h2 style="font-size:40px;">Meet Our Team</h2>
+      </div><br>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Chief Executive Officer" src="img/team/person3.jpg">
+          <div class="caption">
+            <h3>Chief Executive Officer</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Chief Technology Officer" src="img/team/person2.png">
+          <div class="caption">
+            <h3>Chief Technology Officer</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Human Resources" src="img/team/person3.jpg">
+          <div class="caption">
+            <h3>Human Resources</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Development Team-->
+    <div class="row">
+      <div>
+        <h2 class="teamTittle">Development</h2>
+      </div><br>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Web Development" src="img/team/person2.png">
+          <div class="caption">
+            <h3>Web Development</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Web Extension Development" src="img/team/person3.jpg">
+          <div class="caption">
+            <h3>Web Extension Development</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail" style="width: 350px;">
+          <img alt="Mobile Development" src="img/team/person2.png">
+          <div class="caption">
+            <h3>Mobile Development</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Advisors-->
+    <div class="row">
+      <div>
+        <h2 class="teamTittle">Advisors</h2>
+      </div><br>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img alt="Advisors" src="img/team/person2.png">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img alt="Advisors" src="img/team/person3.jpg">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img alt="Advisors" src="img/team/person3.jpg">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img alt="Advisors" src="img/team/person2.png">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sales & Marketing-->
+    <div class="row">
+      <div>
+        <h2 class="teamTittle">Sales & Marketing</h2>
+      </div><br>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Sales & Marketing" src="img/team/person3.jpg">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Sales & Marketing" src="img/team/person2.png">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img alt="Sales & Marketing" src="img/team/person3.jpg">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img alt="Sales & Marketing" src="img/team/person2.png">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <img alt="Sales & Marketing" src="img/team/person3.jpg">
+          <div class="caption">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- floating form -->
+  <div class="form-style" id="contact_form2">
+    <div class="form-style-heading">
+      Schedule a demo or leave us a message.<a href="#" id="closeForm2" style="color:#495A6C;float:right;position:relative;margin-top:-1%;"><span class="glyphicon glyphicon-remove" style="font-size: 12px"></span></a>
+    </div>
+    <div id="contact_results2"></div>
+    <div id="contact_body2">
+      <label style="font-size: 13px;"><span>Name <span class="required">*</span></span> <input class="input-field" id="name2" name="name2" placeholder="Your name..." required="true" type="text"></label> <label style="font-size: 13px;"><span>Email <span class="required">*</span></span> <input class="input-field" id="email2" name="email2" placeholder="anything@example.com" required="true" type="email"></label> <label style="font-size: 13px;"><span>Website</span> <input class="input-field" name="website2" placeholder="www.yoursite.com" type="text"></label> <label for="field5" style="font-size: 13px;"><span>Message <span class="required">*</span></span> 
+      <textarea class="textarea-field" id="message2" name="message2" placeholder="Tell us..." required="true" style="height: 50px;"></textarea></label> <label style="font-size: 0px;position: relative;margin-top: -6.5%;"><span>&nbsp;</span><input id="submit_btn2" type="submit" value="Submit"></label>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; 2015 Fitroom Inc</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li>
+              <a href="https://www.instagram.com/fitroom.me/" target='_blank'><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/fitroom.me/?fref=ts" target='_blank'><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/fitroom.me/" target='_blank'><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/fitroom-inc" target='_blank'><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.crunchbase.com/organization/fitroom#/entity" id="cb" target='_blank'><i></i></a>
+            </li>
+            <li>
+              <a href="https://angel.co/fitroom" id="angelList" target='_blank'><i></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <span class="copyright">San Francisco CA.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- slideshow-->
+  <script src="js/jquery.imagesloaded.min.js">
+  </script> 
+  <script src="js/cbpBGSlideshow.min.js">
+  </script> <!-- Bootstrap Core JavaScript -->
+   
+  <script src="js/bootstrap.min.js">
+  </script> <!-- Plugin JavaScript -->
+   
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
+  </script> 
+  <script src="js/classie.js">
+  </script> 
+  <script src="js/cbpAnimatedHeader.js">
+  </script> <!-- Custom Theme JavaScript -->
+   
+  <script src="js/agency.js">
+  </script>
+</body>
+</html>
