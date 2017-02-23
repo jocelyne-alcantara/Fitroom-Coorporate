@@ -3,7 +3,6 @@ if($_POST)
 {
 	$to_email   	= "example@gmail.com";
 	$subject        = "Fitroom_Contact";
-	
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 		
 		$output = json_encode(array(
